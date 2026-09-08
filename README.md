@@ -1,5 +1,8 @@
 # Arcane Dock
 
+[![CI](https://github.com/Abray0/Desktop-organizer/actions/workflows/ci.yml/badge.svg)](https://github.com/Abray0/Desktop-organizer/actions/workflows/ci.yml)
+[![Release](https://github.com/Abray0/Desktop-organizer/actions/workflows/release.yml/badge.svg)](https://github.com/Abray0/Desktop-organizer/actions/workflows/release.yml)
+
 Tidies a messy Windows desktop into glass **fences** — panels that sit on the
 desktop itself, each holding a group of your actual files, folders and
 shortcuts. Glassmorphic, with a bit of fantasy in it, and light enough to leave
@@ -20,8 +23,8 @@ any time, and they are restored automatically when you quit.
 **Or run from source** (Windows 10/11, Python 3.10+):
 
 ```powershell
-git clone <this repo>
-cd "Desktop manager - Claude"
+git clone https://github.com/Abray0/Desktop-organizer.git
+cd Desktop-organizer
 python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
 .venv\Scripts\pythonw.exe -m arcanedock     # no console window
