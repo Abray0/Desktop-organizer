@@ -1,0 +1,5 @@
+# Runtime dependency. PySide6-Essentials is the trimmed Qt distribution:
+# it carries QtWidgets/QtGui/QtNetwork without the multimedia, WebEngine and
+# 3D modules of the full PySide6 package, which keeps the install ~200 MB
+# smaller. Everything Windows-specific is done with ctypes, no pywin32.
+PySide6-Essentials>=6.7,<7

@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# Only needed to build the standalone .exe (see .github/workflows/release.yml).
+pyinstaller>=6.6

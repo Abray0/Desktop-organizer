@@ -1,0 +1,18 @@
+# virtualenv
+.venv/
+venv/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# pyinstaller
+build/
+dist/
+*.spec
+
+# editors / os
+.vscode/
+.idea/
+Thumbs.db
