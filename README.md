@@ -8,8 +8,6 @@ desktop itself, each holding a group of your actual files, folders and
 shortcuts. Glassmorphic, with a bit of fantasy in it, and light enough to leave
 running.
 
-![fences on the desktop](docs/preview.png)
-
 On first run it hides Windows' own desktop icons so the fences *replace* the
 clutter rather than sit on top of it. That is a display toggle — **nothing on
 your disk is moved, renamed or deleted**, the icons come back from the tray at
